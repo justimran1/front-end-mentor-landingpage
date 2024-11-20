@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4d04e;
+}
+.container{
+display: flex;
+justify-content: center;
+font-family: "Figtree", sans-serif;
+font-optical-sizing: auto;
+
+}
+.page{
+    max-width:370px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 15px 15px 10px black;
+    margin-top: 28px;
+}
+.flex{
+padding: 1rem  15px 0 1rem;
+align-items: center;
+justify-content: center;
+box-shadow: 10px 10px 8px black;
+}
+#header{
+
+}
+.img-header{
+width: 80%;
+/* border: green solid 3px; */
+}
+.date{
+    color: #111111;
+}
+.learning{
+    background-color: #f4d04e;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 6px ;
+    padding: 7px 11px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    margin-top: 8px;
+
+}
+p{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+h2, h4{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    cursor: pointer;
+}
+.avatar{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+#greg{
+width: 90%;
+cursor: pointer;
+}
+.greg-img{
+    display: inline-block;
+    width: 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+
+body{
+    background-color: #f4d04e;
+    max-height: 100vh;
+}
+.page{
+    max-width:300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow:  15px 10px black;
+    margin-top: 78px;
+}
+#header{
+width: 266px;
+}
+.img-header{
+max-width: 60%;
+/* border: green solid 3px; */
+}
+}  
